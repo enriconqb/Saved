@@ -1,0 +1,580 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+	<RuntimeProperties>
+		<CrashVersion>3</CrashVersion>
+		<ExecutionGuid>A72CB94140084B9A0BD565B954FFA677</ExecutionGuid>
+		<CrashGUID>UE4CC-Windows-C8275C7D4E498F5CA7C8CABF38FC9F03_0000</CrashGUID>
+		<IsEnsure>false</IsEnsure>
+		<IsAssert>false</IsAssert>
+		<CrashType>Crash</CrashType>
+		<ErrorMessage>Unhandled Exception: EXCEPTION_ACCESS_VIOLATION reading address 0x000002e66e64af68</ErrorMessage>
+		<CrashReporterMessage />
+		<ProcessId>1848</ProcessId>
+		<SecondsSinceStart>11067</SecondsSinceStart>
+		<IsInternalBuild>false</IsInternalBuild>
+		<IsPerforceBuild>false</IsPerforceBuild>
+		<IsSourceDistribution>false</IsSourceDistribution>
+		<GameName>UE4-BusSimulator21</GameName>
+		<ExecutableName>BusSimulator21-Win64-Shipping</ExecutableName>
+		<BuildConfiguration>Shipping</BuildConfiguration>
+		<GameSessionID />
+		<Symbols>**UE4*Release-4.26-CL-0-Win64-Shipping</Symbols>
+		<PlatformName>WindowsNoEditor</PlatformName>
+		<PlatformNameIni>Windows</PlatformNameIni>
+		<EngineMode>Game</EngineMode>
+		<EngineModeEx>Unset</EngineModeEx>
+		<DeploymentName />
+		<EngineVersion>4.26.2-0+++UE4+Release-4.26</EngineVersion>
+		<CommandLine>BusSimulator21</CommandLine>
+		<LanguageLCID>0</LanguageLCID>
+		<AppDefaultLocale>en-US</AppDefaultLocale>
+		<BuildVersion>++UE4+Release-4.26-CL-0</BuildVersion>
+		<IsUE4Release>true</IsUE4Release>
+		<IsRequestingExit>false</IsRequestingExit>
+		<UserName />
+		<BaseDir>D:/Game/Bus.Simulator.21/Bus.Simulator.21/Bus Simulator 21/BusSimulator21/Binaries/Win64/</BaseDir>
+		<RootDir>D:/Game/Bus.Simulator.21/Bus.Simulator.21/Bus Simulator 21/</RootDir>
+		<MachineId>D6BB1021459F4C15296EBBAD8A13D68B</MachineId>
+		<LoginId>d6bb1021459f4c15296ebbad8a13d68b</LoginId>
+		<EpicAccountId>62369bef32bf4c82b503ce84343849fd</EpicAccountId>
+		<SourceContext />
+		<UserDescription />
+		<UserActivityHint />
+		<CrashDumpMode>0</CrashDumpMode>
+		<GameStateName>BS18GameState_BP_C</GameStateName>
+		<Misc.NumberOfCores>6</Misc.NumberOfCores>
+		<Misc.NumberOfCoresIncludingHyperthreads>12</Misc.NumberOfCoresIncludingHyperthreads>
+		<Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
+		<Misc.CPUVendor>GenuineIntel</Misc.CPUVendor>
+		<Misc.CPUBrand>Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz</Misc.CPUBrand>
+		<Misc.PrimaryGPUBrand>Intel(R) UHD Graphics 630</Misc.PrimaryGPUBrand>
+		<Misc.OSVersionMajor>Windows 10 (Release 2009)</Misc.OSVersionMajor>
+		<Misc.OSVersionMinor />
+		<MemoryStats.TotalPhysical>25613758464</MemoryStats.TotalPhysical>
+		<MemoryStats.TotalVirtual>140737488224256</MemoryStats.TotalVirtual>
+		<MemoryStats.PageSize>4096</MemoryStats.PageSize>
+		<MemoryStats.TotalPhysicalGB>24</MemoryStats.TotalPhysicalGB>
+		<MemoryStats.AvailablePhysical>0</MemoryStats.AvailablePhysical>
+		<MemoryStats.AvailableVirtual>0</MemoryStats.AvailableVirtual>
+		<MemoryStats.UsedPhysical>0</MemoryStats.UsedPhysical>
+		<MemoryStats.PeakUsedPhysical>0</MemoryStats.PeakUsedPhysical>
+		<MemoryStats.UsedVirtual>0</MemoryStats.UsedVirtual>
+		<MemoryStats.PeakUsedVirtual>0</MemoryStats.PeakUsedVirtual>
+		<MemoryStats.bIsOOM>0</MemoryStats.bIsOOM>
+		<MemoryStats.OOMAllocationSize>0</MemoryStats.OOMAllocationSize>
+		<MemoryStats.OOMAllocationAlignment>0</MemoryStats.OOMAllocationAlignment>
+		<NumMinidumpFramesToIgnore>0</NumMinidumpFramesToIgnore>
+		<CallStack>BusSimulator21_Win64_Shipping
+BusSimulator21_Win64_Shipping
+BusSimulator21_Win64_Shipping
+BusSimulator21_Win64_Shipping
+BusSimulator21_Win64_Shipping
+BusSimulator21_Win64_Shipping
+BusSimulator21_Win64_Shipping
+BusSimulator21_Win64_Shipping
+BusSimulator21_Win64_Shipping
+BusSimulator21_Win64_Shipping
+BusSimulator21_Win64_Shipping
+BusSimulator21_Win64_Shipping
+BusSimulator21_Win64_Shipping
+BusSimulator21_Win64_Shipping
+BusSimulator21_Win64_Shipping
+BusSimulator21_Win64_Shipping
+BusSimulator21_Win64_Shipping
+BusSimulator21_Win64_Shipping
+BusSimulator21_Win64_Shipping
+BusSimulator21_Win64_Shipping
+kernel32
+ntdll</CallStack>
+		<PCallStack>BusSimulator21-Win64-Shipping 0x00007ff657f90000 + af7073 BusSimulator21-Win64-Shipping 0x00007ff657f90000 + b07b79 BusSimulator21-Win64-Shipping 0x00007ff657f90000 + b01ab3 BusSimulator21-Win64-Shipping 0x00007ff657f90000 + b08c4e BusSimulator21-Win64-Shipping 0x00007ff657f90000 + f9bd78 BusSimulator21-Win64-Shipping 0x00007ff657f90000 + fab4b6 BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 270e194 BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 26f90e5 BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 2d27490 BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1225c3b BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1229fb7 BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 2d2e670 BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 2d30277 BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 2a386dc BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 2953a5f BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 7e9c50 BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 7f02cc BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 7f033a BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 7fa43f BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 365ee1e KERNEL32 0x00007ff85a350000 + 17614 ntdll 0x00007ff85c2f0000 + 526a1</PCallStack>
+		<PCallStackHash>50E915D9009B4F86014D6AA2714454F3F848424F</PCallStackHash>
+		<Threads>
+			<Thread>
+				<CallStack>ntdll 0x00007ff85c2f0000 + 9d0e4 KERNELBASE 0x00007ff859d80000 + 230ce BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1356c70 BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 36670be VCRUNTIME140 0x00007ff841100000 + ef90 ntdll 0x00007ff85c2f0000 + a23df ntdll 0x00007ff85c2f0000 + 514a4 ntdll 0x00007ff85c2f0000 + a0f0e BusSimulator21-Win64-Shipping 0x00007ff657f90000 + af7073 BusSimulator21-Win64-Shipping 0x00007ff657f90000 + b07b79 BusSimulator21-Win64-Shipping 0x00007ff657f90000 + b01ab3 BusSimulator21-Win64-Shipping 0x00007ff657f90000 + b08c4e BusSimulator21-Win64-Shipping 0x00007ff657f90000 + f9bd78 BusSimulator21-Win64-Shipping 0x00007ff657f90000 + fab4b6 BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 270e194 BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 26f90e5 BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 2d27490 BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1225c3b BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1229fb7 BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 2d2e670 BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 2d30277 BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 2a386dc BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 2953a5f BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 7e9c50 BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 7f02cc BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 7f033a BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 7fa43f BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 365ee1e KERNEL32 0x00007ff85a350000 + 17614 ntdll 0x00007ff85c2f0000 + 526a1</CallStack>
+				<IsCrashed>true</IsCrashed>
+				<Registers />
+				<ThreadID>20348</ThreadID>
+				<ThreadName>GameThread</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff85c2f0000 + 9d0e4 KERNELBASE 0x00007ff859d80000 + 230ce BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 136833e BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1225d61 BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1227c8c BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1366d8b BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1362401 KERNEL32 0x00007ff85a350000 + 17614 ntdll 0x00007ff85c2f0000 + 526a1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>2572</ThreadID>
+				<ThreadName>TaskGraphThreadNP 0</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff85c2f0000 + 9d0e4 KERNELBASE 0x00007ff859d80000 + 230ce BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 136833e BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1225d61 BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1227c8c BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1366d8b BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1362401 KERNEL32 0x00007ff85a350000 + 17614 ntdll 0x00007ff85c2f0000 + 526a1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>12748</ThreadID>
+				<ThreadName>TaskGraphThreadNP 1</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff85c2f0000 + 9d0e4 KERNELBASE 0x00007ff859d80000 + 230ce BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 136833e BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1225d61 BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1227c8c BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1366d8b BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1362401 KERNEL32 0x00007ff85a350000 + 17614 ntdll 0x00007ff85c2f0000 + 526a1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>16896</ThreadID>
+				<ThreadName>TaskGraphThreadNP 2</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff85c2f0000 + 9d0e4 KERNELBASE 0x00007ff859d80000 + 230ce BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 136833e BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1225d61 BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1227c8c BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1366d8b BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1362401 KERNEL32 0x00007ff85a350000 + 17614 ntdll 0x00007ff85c2f0000 + 526a1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>1716</ThreadID>
+				<ThreadName>TaskGraphThreadNP 3</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff85c2f0000 + 9d0e4 KERNELBASE 0x00007ff859d80000 + 230ce BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 136833e BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1225d61 BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1227c8c BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1366d8b BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1362401 KERNEL32 0x00007ff85a350000 + 17614 ntdll 0x00007ff85c2f0000 + 526a1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>21944</ThreadID>
+				<ThreadName>TaskGraphThreadNP 4</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff85c2f0000 + 9d0e4 KERNELBASE 0x00007ff859d80000 + 230ce BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 136833e BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1225d61 BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1227c8c BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1366d8b BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1362401 KERNEL32 0x00007ff85a350000 + 17614 ntdll 0x00007ff85c2f0000 + 526a1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>15056</ThreadID>
+				<ThreadName>TaskGraphThreadNP 5</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff85c2f0000 + 9d0e4 KERNELBASE 0x00007ff859d80000 + 230ce BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 136833e BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1225d61 BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1227c8c BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1366d8b BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1362401 KERNEL32 0x00007ff85a350000 + 17614 ntdll 0x00007ff85c2f0000 + 526a1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>19064</ThreadID>
+				<ThreadName>TaskGraphThreadNP 6</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff85c2f0000 + 9d0e4 KERNELBASE 0x00007ff859d80000 + 230ce BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 136833e BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1225d61 BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1227c8c BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1366d8b BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1362401 KERNEL32 0x00007ff85a350000 + 17614 ntdll 0x00007ff85c2f0000 + 526a1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>13228</ThreadID>
+				<ThreadName>TaskGraphThreadNP 7</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff85c2f0000 + 9d0e4 KERNELBASE 0x00007ff859d80000 + 230ce BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 136833e BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1225d61 BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1227c8c BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1366d8b BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1362401 KERNEL32 0x00007ff85a350000 + 17614 ntdll 0x00007ff85c2f0000 + 526a1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>9892</ThreadID>
+				<ThreadName>TaskGraphThreadNP 8</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff85c2f0000 + 9d0e4 KERNELBASE 0x00007ff859d80000 + 230ce BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 136833e BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1225d61 BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1227c8c BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1366d8b BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1362401 KERNEL32 0x00007ff85a350000 + 17614 ntdll 0x00007ff85c2f0000 + 526a1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>588</ThreadID>
+				<ThreadName>TaskGraphThreadNP 9</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff85c2f0000 + 9d0e4 KERNELBASE 0x00007ff859d80000 + 230ce BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 136833e BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1225d61 BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1227c8c BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1366d8b BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1362401 KERNEL32 0x00007ff85a350000 + 17614 ntdll 0x00007ff85c2f0000 + 526a1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>10932</ThreadID>
+				<ThreadName>TaskGraphThreadHP 10</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff85c2f0000 + 9d0e4 KERNELBASE 0x00007ff859d80000 + 230ce BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 136833e BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1225d61 BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1227c8c BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1366d8b BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1362401 KERNEL32 0x00007ff85a350000 + 17614 ntdll 0x00007ff85c2f0000 + 526a1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>13516</ThreadID>
+				<ThreadName>TaskGraphThreadHP 11</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff85c2f0000 + 9d0e4 KERNELBASE 0x00007ff859d80000 + 230ce BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 136833e BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1225d61 BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1227c8c BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1366d8b BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1362401 KERNEL32 0x00007ff85a350000 + 17614 ntdll 0x00007ff85c2f0000 + 526a1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>10064</ThreadID>
+				<ThreadName>TaskGraphThreadHP 12</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff85c2f0000 + 9d0e4 KERNELBASE 0x00007ff859d80000 + 230ce BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 136833e BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1225d61 BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1227c8c BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1366d8b BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1362401 KERNEL32 0x00007ff85a350000 + 17614 ntdll 0x00007ff85c2f0000 + 526a1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>4412</ThreadID>
+				<ThreadName>TaskGraphThreadHP 13</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff85c2f0000 + 9d0e4 KERNELBASE 0x00007ff859d80000 + 230ce BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 136833e BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1225d61 BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1227c8c BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1366d8b BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1362401 KERNEL32 0x00007ff85a350000 + 17614 ntdll 0x00007ff85c2f0000 + 526a1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>14364</ThreadID>
+				<ThreadName>TaskGraphThreadHP 14</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff85c2f0000 + 9d0e4 KERNELBASE 0x00007ff859d80000 + 230ce BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 136833e BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1225d61 BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1227c8c BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1366d8b BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1362401 KERNEL32 0x00007ff85a350000 + 17614 ntdll 0x00007ff85c2f0000 + 526a1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>6552</ThreadID>
+				<ThreadName>TaskGraphThreadHP 15</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff85c2f0000 + 9d0e4 KERNELBASE 0x00007ff859d80000 + 230ce BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 136833e BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1225d61 BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1227c8c BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1366d8b BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1362401 KERNEL32 0x00007ff85a350000 + 17614 ntdll 0x00007ff85c2f0000 + 526a1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>17056</ThreadID>
+				<ThreadName>TaskGraphThreadHP 16</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff85c2f0000 + 9d0e4 KERNELBASE 0x00007ff859d80000 + 230ce BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 136833e BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1225d61 BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1227c8c BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1366d8b BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1362401 KERNEL32 0x00007ff85a350000 + 17614 ntdll 0x00007ff85c2f0000 + 526a1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>14304</ThreadID>
+				<ThreadName>TaskGraphThreadHP 17</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff85c2f0000 + 9d0e4 KERNELBASE 0x00007ff859d80000 + 230ce BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 136833e BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1225d61 BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1227c8c BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1366d8b BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1362401 KERNEL32 0x00007ff85a350000 + 17614 ntdll 0x00007ff85c2f0000 + 526a1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>2660</ThreadID>
+				<ThreadName>TaskGraphThreadHP 18</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff85c2f0000 + 9d0e4 KERNELBASE 0x00007ff859d80000 + 230ce BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 136833e BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1225d61 BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1227c8c BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1366d8b BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1362401 KERNEL32 0x00007ff85a350000 + 17614 ntdll 0x00007ff85c2f0000 + 526a1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>20028</ThreadID>
+				<ThreadName>TaskGraphThreadHP 19</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff85c2f0000 + 9d0e4 KERNELBASE 0x00007ff859d80000 + 230ce BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 136833e BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1225d61 BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1227c8c BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1366d8b BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1362401 KERNEL32 0x00007ff85a350000 + 17614 ntdll 0x00007ff85c2f0000 + 526a1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>21076</ThreadID>
+				<ThreadName>TaskGraphThreadBP 20</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff85c2f0000 + 9d0e4 KERNELBASE 0x00007ff859d80000 + 230ce BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 136833e BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1225d61 BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1227c8c BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1366d8b BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1362401 KERNEL32 0x00007ff85a350000 + 17614 ntdll 0x00007ff85c2f0000 + 526a1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>11836</ThreadID>
+				<ThreadName>TaskGraphThreadBP 21</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff85c2f0000 + 9d0e4 KERNELBASE 0x00007ff859d80000 + 230ce BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 136833e BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1225d61 BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1227c8c BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1366d8b BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1362401 KERNEL32 0x00007ff85a350000 + 17614 ntdll 0x00007ff85c2f0000 + 526a1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>7468</ThreadID>
+				<ThreadName>TaskGraphThreadBP 22</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff85c2f0000 + 9d0e4 KERNELBASE 0x00007ff859d80000 + 230ce BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 136833e BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1225d61 BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1227c8c BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1366d8b BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1362401 KERNEL32 0x00007ff85a350000 + 17614 ntdll 0x00007ff85c2f0000 + 526a1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>8172</ThreadID>
+				<ThreadName>TaskGraphThreadBP 23</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff85c2f0000 + 9d0e4 KERNELBASE 0x00007ff859d80000 + 230ce BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 136833e BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1225d61 BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1227c8c BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1366d8b BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1362401 KERNEL32 0x00007ff85a350000 + 17614 ntdll 0x00007ff85c2f0000 + 526a1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>1384</ThreadID>
+				<ThreadName>TaskGraphThreadBP 24</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff85c2f0000 + 9d0e4 KERNELBASE 0x00007ff859d80000 + 230ce BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 136833e BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1225d61 BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1227c8c BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1366d8b BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1362401 KERNEL32 0x00007ff85a350000 + 17614 ntdll 0x00007ff85c2f0000 + 526a1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>2612</ThreadID>
+				<ThreadName>TaskGraphThreadBP 25</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff85c2f0000 + 9d0e4 KERNELBASE 0x00007ff859d80000 + 230ce BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 136833e BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1225d61 BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1227c8c BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1366d8b BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1362401 KERNEL32 0x00007ff85a350000 + 17614 ntdll 0x00007ff85c2f0000 + 526a1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>16616</ThreadID>
+				<ThreadName>TaskGraphThreadBP 26</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff85c2f0000 + 9d0e4 KERNELBASE 0x00007ff859d80000 + 230ce BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 136833e BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1225d61 BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1227c8c BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1366d8b BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1362401 KERNEL32 0x00007ff85a350000 + 17614 ntdll 0x00007ff85c2f0000 + 526a1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>22080</ThreadID>
+				<ThreadName>TaskGraphThreadBP 27</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff85c2f0000 + 9d0e4 KERNELBASE 0x00007ff859d80000 + 230ce BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 136833e BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1225d61 BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1227c8c BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1366d8b BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1362401 KERNEL32 0x00007ff85a350000 + 17614 ntdll 0x00007ff85c2f0000 + 526a1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>8768</ThreadID>
+				<ThreadName>TaskGraphThreadBP 28</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff85c2f0000 + 9d0e4 KERNELBASE 0x00007ff859d80000 + 230ce BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 136833e BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1225d61 BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1227c8c BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1366d8b BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1362401 KERNEL32 0x00007ff85a350000 + 17614 ntdll 0x00007ff85c2f0000 + 526a1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>14260</ThreadID>
+				<ThreadName>TaskGraphThreadBP 29</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff85c2f0000 + 9d0e4 KERNELBASE 0x00007ff859d80000 + 230ce BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 136833e BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1272abf BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1366d8b BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1362401 KERNEL32 0x00007ff85a350000 + 17614 ntdll 0x00007ff85c2f0000 + 526a1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>8456</ThreadID>
+				<ThreadName>PoolThread 0</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff85c2f0000 + 9d0e4 KERNELBASE 0x00007ff859d80000 + 230ce BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 136833e BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1272abf BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1366d8b BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1362401 KERNEL32 0x00007ff85a350000 + 17614 ntdll 0x00007ff85c2f0000 + 526a1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>10608</ThreadID>
+				<ThreadName>PoolThread 1</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff85c2f0000 + 9d0e4 KERNELBASE 0x00007ff859d80000 + 230ce BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 136833e BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1272abf BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1366d8b BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1362401 KERNEL32 0x00007ff85a350000 + 17614 ntdll 0x00007ff85c2f0000 + 526a1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>19032</ThreadID>
+				<ThreadName>PoolThread 2</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff85c2f0000 + 9d0e4 KERNELBASE 0x00007ff859d80000 + 230ce BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 136833e BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1272abf BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1366d8b BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1362401 KERNEL32 0x00007ff85a350000 + 17614 ntdll 0x00007ff85c2f0000 + 526a1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>5208</ThreadID>
+				<ThreadName>PoolThread 3</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff85c2f0000 + 9d0e4 KERNELBASE 0x00007ff859d80000 + 230ce BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 136833e BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1272abf BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1366d8b BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1362401 KERNEL32 0x00007ff85a350000 + 17614 ntdll 0x00007ff85c2f0000 + 526a1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>14512</ThreadID>
+				<ThreadName>PoolThread 4</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff85c2f0000 + 9d0e4 KERNELBASE 0x00007ff859d80000 + 230ce BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 136833e BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1272abf BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1366d8b BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1362401 KERNEL32 0x00007ff85a350000 + 17614 ntdll 0x00007ff85c2f0000 + 526a1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>1308</ThreadID>
+				<ThreadName>PoolThread 5</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff85c2f0000 + 9d0e4 KERNELBASE 0x00007ff859d80000 + 230ce BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 136833e BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1272abf BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1366d8b BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1362401 KERNEL32 0x00007ff85a350000 + 17614 ntdll 0x00007ff85c2f0000 + 526a1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>12452</ThreadID>
+				<ThreadName>PoolThread 6</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff85c2f0000 + 9d0e4 KERNELBASE 0x00007ff859d80000 + 230ce BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 136833e BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1272abf BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1366d8b BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1362401 KERNEL32 0x00007ff85a350000 + 17614 ntdll 0x00007ff85c2f0000 + 526a1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>10632</ThreadID>
+				<ThreadName>PoolThread 7</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff85c2f0000 + 9d0e4 KERNELBASE 0x00007ff859d80000 + 230ce BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 136833e BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1272abf BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1366d8b BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1362401 KERNEL32 0x00007ff85a350000 + 17614 ntdll 0x00007ff85c2f0000 + 526a1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>13716</ThreadID>
+				<ThreadName>PoolThread 8</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff85c2f0000 + 9d0e4 KERNELBASE 0x00007ff859d80000 + 230ce BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 136833e BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1272abf BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1366d8b BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1362401 KERNEL32 0x00007ff85a350000 + 17614 ntdll 0x00007ff85c2f0000 + 526a1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>5532</ThreadID>
+				<ThreadName>PoolThread 9</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff85c2f0000 + 9d0e4 KERNELBASE 0x00007ff859d80000 + 230ce BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 136833e BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1272abf BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1366d8b BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1362401 KERNEL32 0x00007ff85a350000 + 17614 ntdll 0x00007ff85c2f0000 + 526a1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>9520</ThreadID>
+				<ThreadName>PoolThread 10</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff85c2f0000 + 9d0e4 KERNELBASE 0x00007ff859d80000 + 230ce BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 136833e BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1272abf BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1366d8b BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1362401 KERNEL32 0x00007ff85a350000 + 17614 ntdll 0x00007ff85c2f0000 + 526a1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>4928</ThreadID>
+				<ThreadName>PoolThread 11</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff85c2f0000 + 9d6e4 KERNELBASE 0x00007ff859d80000 + 4b44e BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 20b4590 BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1366d8b BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1362401 KERNEL32 0x00007ff85a350000 + 17614 ntdll 0x00007ff85c2f0000 + 526a1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>19776</ThreadID>
+				<ThreadName>HttpManagerThread</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff85c2f0000 + 9d0e4 KERNELBASE 0x00007ff859d80000 + 230ce BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 136833e BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 89e8a6 BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1366d8b BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1362401 KERNEL32 0x00007ff85a350000 + 17614 ntdll 0x00007ff85c2f0000 + 526a1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>12792</ThreadID>
+				<ThreadName>OnlineAsyncTaskThreadSteam DefaultInstance</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff85c2f0000 + 9d6e4 KERNELBASE 0x00007ff859d80000 + 4b44e BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 136755a BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 267e514 BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1366d8b BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1362401 KERNEL32 0x00007ff85a350000 + 17614 ntdll 0x00007ff85c2f0000 + 526a1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>21900</ThreadID>
+				<ThreadName>FMediaTicker</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff85c2f0000 + 9d0e4 KERNELBASE 0x00007ff859d80000 + 230ce BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 136833e BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1272abf BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1366d8b BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1362401 KERNEL32 0x00007ff85a350000 + 17614 ntdll 0x00007ff85c2f0000 + 526a1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>8636</ThreadID>
+				<ThreadName>PoolThread 12</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff85c2f0000 + 9d0e4 KERNELBASE 0x00007ff859d80000 + 230ce BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 136833e BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1272abf BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1366d8b BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1362401 KERNEL32 0x00007ff85a350000 + 17614 ntdll 0x00007ff85c2f0000 + 526a1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>14704</ThreadID>
+				<ThreadName>PoolThread 13</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff85c2f0000 + 9d0e4 KERNELBASE 0x00007ff859d80000 + 230ce BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 136833e BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1272abf BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1366d8b BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1362401 KERNEL32 0x00007ff85a350000 + 17614 ntdll 0x00007ff85c2f0000 + 526a1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>15456</ThreadID>
+				<ThreadName>PoolThread 14</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff85c2f0000 + 9d0e4 KERNELBASE 0x00007ff859d80000 + 230ce BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 136833e BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1272abf BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1366d8b BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1362401 KERNEL32 0x00007ff85a350000 + 17614 ntdll 0x00007ff85c2f0000 + 526a1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>8304</ThreadID>
+				<ThreadName>PoolThread 15</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff85c2f0000 + 9d0e4 KERNELBASE 0x00007ff859d80000 + 230ce BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 136833e BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1225c1b BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 225c290 BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1366d8b BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1362401 KERNEL32 0x00007ff85a350000 + 17614 ntdll 0x00007ff85c2f0000 + 526a1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>18648</ThreadID>
+				<ThreadName>RHIThread</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff85c2f0000 + 9d0e4 KERNELBASE 0x00007ff859d80000 + 230ce BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 136833e BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1225c1b BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 225b582 BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 225c2d3 BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1366d8b BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1362401 KERNEL32 0x00007ff85a350000 + 17614 ntdll 0x00007ff85c2f0000 + 526a1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>8140</ThreadID>
+				<ThreadName>RenderThread 1</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff85c2f0000 + 9d6e4 KERNELBASE 0x00007ff859d80000 + 4b44e BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 136755a BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 225c3f7 BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1366d8b BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1362401 KERNEL32 0x00007ff85a350000 + 17614 ntdll 0x00007ff85c2f0000 + 526a1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>1080</ThreadID>
+				<ThreadName>RTHeartBeat 1</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff85c2f0000 + 9d0e4 KERNELBASE 0x00007ff859d80000 + 230ce BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 136833e BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 13b0bb3 BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 13acc40 BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1366d8b BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1362401 KERNEL32 0x00007ff85a350000 + 17614 ntdll 0x00007ff85c2f0000 + 526a1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>11676</ThreadID>
+				<ThreadName>FAsyncLoadingThread</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff85c2f0000 + 9d0e4 KERNELBASE 0x00007ff859d80000 + 230ce BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 136833e BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1272abf BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1366d8b BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1362401 KERNEL32 0x00007ff85a350000 + 17614 ntdll 0x00007ff85c2f0000 + 526a1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>21012</ThreadID>
+				<ThreadName>PoolThread 16</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff85c2f0000 + 9d0e4 KERNELBASE 0x00007ff859d80000 + 230ce BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 136833e BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1272abf BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1366d8b BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1362401 KERNEL32 0x00007ff85a350000 + 17614 ntdll 0x00007ff85c2f0000 + 526a1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>21732</ThreadID>
+				<ThreadName>PoolThread 17</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff85c2f0000 + 9d0e4 KERNELBASE 0x00007ff859d80000 + 230ce BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 136833e BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1272abf BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1366d8b BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1362401 KERNEL32 0x00007ff85a350000 + 17614 ntdll 0x00007ff85c2f0000 + 526a1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>10440</ThreadID>
+				<ThreadName>PoolThread 18</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff85c2f0000 + 9d0e4 KERNELBASE 0x00007ff859d80000 + 230ce BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 136833e BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1272abf BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1366d8b BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1362401 KERNEL32 0x00007ff85a350000 + 17614 ntdll 0x00007ff85c2f0000 + 526a1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>11944</ThreadID>
+				<ThreadName>PoolThread 19</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff85c2f0000 + 9d0e4 KERNELBASE 0x00007ff859d80000 + 230ce BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 136833e BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1272abf BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1366d8b BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1362401 KERNEL32 0x00007ff85a350000 + 17614 ntdll 0x00007ff85c2f0000 + 526a1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>12060</ThreadID>
+				<ThreadName>PoolThread 20</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff85c2f0000 + 9d0e4 KERNELBASE 0x00007ff859d80000 + 230ce BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 136833e BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1272abf BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1366d8b BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1362401 KERNEL32 0x00007ff85a350000 + 17614 ntdll 0x00007ff85c2f0000 + 526a1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>22396</ThreadID>
+				<ThreadName>PoolThread 21</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff85c2f0000 + 9d6e4 KERNELBASE 0x00007ff859d80000 + 4b44e BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 136755a BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 2d54db1 BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1366d8b BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1362401 KERNEL32 0x00007ff85a350000 + 17614 ntdll 0x00007ff85c2f0000 + 526a1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>18768</ThreadID>
+				<ThreadName>ScreenSaverInhibitor</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff85c2f0000 + 9d0e4 KERNELBASE 0x00007ff859d80000 + 230ce BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 136833e BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 2596af5 BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1366d8b BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1362401 KERNEL32 0x00007ff85a350000 + 17614 ntdll 0x00007ff85c2f0000 + 526a1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>1356</ThreadID>
+				<ThreadName>AudioMixerRenderThread(1)</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff85c2f0000 + 9d0e4 KERNELBASE 0x00007ff859d80000 + 230ce BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 136833e BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1225c1b BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 27dd360 BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1366d8b BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1362401 KERNEL32 0x00007ff85a350000 + 17614 ntdll 0x00007ff85c2f0000 + 526a1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>20056</ThreadID>
+				<ThreadName>AudioThread</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff85c2f0000 + 9d0e4 KERNELBASE 0x00007ff859d80000 + 230ce BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 136833e BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 14d53b2 BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1366d8b BusSimulator21-Win64-Shipping 0x00007ff657f90000 + 1362401 KERNEL32 0x00007ff85a350000 + 17614 ntdll 0x00007ff85c2f0000 + 526a1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>2056</ThreadID>
+				<ThreadName>FAsyncPurge</ThreadName>
+			</Thread>
+		</Threads>
+		<TimeOfCrash>638185972791790000</TimeOfCrash>
+		<bAllowToBeContacted>1</bAllowToBeContacted>
+		<PlatformFullName>Win64 [Windows 10 (Release 2009)  64b]</PlatformFullName>
+		<CrashReportClientVersion>1.0</CrashReportClientVersion>
+		<Modules>D:\Game\Bus.Simulator.21\Bus.Simulator.21\Bus Simulator 21\BusSimulator21\Binaries\Win64\BusSimulator21-Win64-Shipping.exe
+D:\Game\Bus.Simulator.21\Bus.Simulator.21\Bus Simulator 21\Engine\Binaries\ThirdParty\DbgHelp\dbghelp.dll
+D:\Game\Bus.Simulator.21\Bus.Simulator.21\Bus Simulator 21\Engine\Binaries\ThirdParty\PhysX3\Win64\VS2015\APEX_Clothing_x64.dll
+D:\Game\Bus.Simulator.21\Bus.Simulator.21\Bus Simulator 21\Engine\Binaries\ThirdParty\PhysX3\Win64\VS2015\APEXFramework_x64.dll
+D:\Game\Bus.Simulator.21\Bus.Simulator.21\Bus Simulator 21\Engine\Binaries\ThirdParty\PhysX3\Win64\VS2015\PhysX3Common_x64.dll
+D:\Game\Bus.Simulator.21\Bus.Simulator.21\Bus Simulator 21\Engine\Binaries\ThirdParty\Windows\XAudio2_9\x64\xaudio2_9redist.dll
+D:\Game\Bus.Simulator.21\Bus.Simulator.21\Bus Simulator 21\Engine\Binaries\ThirdParty\PhysX3\Win64\VS2015\NvCloth_x64.dll
+D:\Game\Bus.Simulator.21\Bus.Simulator.21\Bus Simulator 21\Engine\Binaries\ThirdParty\Ogg\Win64\VS2015\libogg_64.dll
+D:\Game\Bus.Simulator.21\Bus.Simulator.21\Bus Simulator 21\Engine\Binaries\ThirdParty\PhysX3\Win64\VS2015\PhysX3Cooking_x64.dll
+D:\Game\Bus.Simulator.21\Bus.Simulator.21\Bus Simulator 21\Engine\Binaries\ThirdParty\Steamworks\Steamv147\Win64\steam_api64.dll
+D:\Game\Bus.Simulator.21\Bus.Simulator.21\Bus Simulator 21\Engine\Binaries\ThirdParty\PhysX3\Win64\VS2015\PxPvdSDK_x64.dll
+D:\Game\Bus.Simulator.21\Bus.Simulator.21\Bus Simulator 21\Engine\Binaries\ThirdParty\PhysX3\Win64\VS2015\PxFoundation_x64.dll
+D:\Game\Bus.Simulator.21\Bus.Simulator.21\Bus Simulator 21\Engine\Binaries\ThirdParty\NVIDIA\NVaftermath\Win64\GFSDK_Aftermath_Lib.x64.dll
+D:\Game\Bus.Simulator.21\Bus.Simulator.21\Bus Simulator 21\Engine\Binaries\ThirdParty\Vorbis\Win64\VS2015\libvorbisfile_64.dll
+D:\Game\Bus.Simulator.21\Bus.Simulator.21\Bus Simulator 21\Engine\Binaries\ThirdParty\Vorbis\Win64\VS2015\libvorbis_64.dll
+D:\Game\Bus.Simulator.21\Bus.Simulator.21\Bus Simulator 21\BusSimulator21\Plugins\SAS_SDL_Packaged\Binaries\ThirdParty\SAS_SDL_PackagedLibrary\Win64\SDL2.dll
+D:\Game\Bus.Simulator.21\Bus.Simulator.21\Bus Simulator 21\Engine\Binaries\ThirdParty\PhysX3\Win64\VS2015\Apex_Destructible_x64.dll
+D:\Game\Bus.Simulator.21\Bus.Simulator.21\Bus Simulator 21\Engine\Binaries\ThirdParty\PhysX3\Win64\VS2015\APEX_Legacy_x64.dll
+D:\Game\Bus.Simulator.21\Bus.Simulator.21\Bus Simulator 21\Engine\Binaries\ThirdParty\PhysX3\Win64\VS2015\PhysX3_x64.dll</Modules>
+	</RuntimeProperties>
+	<PlatformProperties>
+		<PlatformIsRunningWindows>1</PlatformIsRunningWindows>
+		<IsRunningOnBattery>false</IsRunningOnBattery>
+		<PlatformCallbackResult>0</PlatformCallbackResult>
+	</PlatformProperties>
+	<EngineData>
+		<RHI.RHIName>D3D12</RHI.RHIName>
+		<RHI.AdapterName>NVIDIA GeForce GTX 1050</RHI.AdapterName>
+		<RHI.UserDriverVersion>512.78</RHI.UserDriverVersion>
+		<RHI.InternalDriverVersion>30.0.15.1278</RHI.InternalDriverVersion>
+		<RHI.DriverDate>5-5-2022</RHI.DriverDate>
+		<RHI.FeatureLevel>SM5</RHI.FeatureLevel>
+		<Platform.AppHasFocus>true</Platform.AppHasFocus>
+	</EngineData>
+	<GameData />
+</FGenericCrashContext>
