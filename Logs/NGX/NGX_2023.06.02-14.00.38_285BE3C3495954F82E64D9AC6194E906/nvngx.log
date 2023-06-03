@@ -1,0 +1,2 @@
+[2023-06-02 14:00:39] [ngx::util::setLogFilename:203] Logging to requested file (C:/Users/Enrico NQB/AppData/Local/BusSimulator21/Saved/Logs/NGX/NGX_2023.06.02-14.00.38_285BE3C3495954F82E64D9AC6194E906/nvngx.log) enabled successfully
+[2023-06-02 14:00:39] [NGXCheckHardwareSupportUsingINF:212] error: unsupported hardware detected
