@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+	<RuntimeProperties>
+		<CrashVersion>3</CrashVersion>
+		<ExecutionGuid>31611A204F09040F282385AC7AC29EA2</ExecutionGuid>
+		<CrashGUID>UE4CC-Windows-9412F4E74544E31462008482E01DB73C_0000</CrashGUID>
+		<IsEnsure>false</IsEnsure>
+		<IsAssert>false</IsAssert>
+		<CrashType>Crash</CrashType>
+		<ErrorMessage>Unhandled Exception: EXCEPTION_ACCESS_VIOLATION reading address 0xffffffffffffffff</ErrorMessage>
+		<CrashReporterMessage />
+		<ProcessId>21476</ProcessId>
+		<SecondsSinceStart>155</SecondsSinceStart>
+		<IsInternalBuild>false</IsInternalBuild>
+		<IsPerforceBuild>false</IsPerforceBuild>
+		<IsSourceDistribution>false</IsSourceDistribution>
+		<GameName>UE4-BusSimulator21</GameName>
+		<ExecutableName>BusSimulator21-Win64-Shipping</ExecutableName>
+		<BuildConfiguration>Shipping</BuildConfiguration>
+		<GameSessionID />
+		<Symbols>**BusSimulator21*QA-CL-27193-Win64-Shipping</Symbols>
+		<PlatformName>WindowsNoEditor</PlatformName>
+		<PlatformNameIni>Windows</PlatformNameIni>
+		<EngineMode>Game</EngineMode>
+		<EngineModeEx>Unset</EngineModeEx>
+		<DeploymentName />
+		<EngineVersion>4.26.2-27193+++BusSimulator21+QA</EngineVersion>
+		<CommandLine>BusSimulator21</CommandLine>
+		<LanguageLCID>0</LanguageLCID>
+		<AppDefaultLocale>en-ID</AppDefaultLocale>
+		<BuildVersion>++BusSimulator21+QA-CL-27193</BuildVersion>
+		<IsUE4Release>true</IsUE4Release>
+		<IsRequestingExit>false</IsRequestingExit>
+		<UserName />
+		<BaseDir>C:/Users/risa_/Desktop/DLL/Bus.Simulator.21.Next.Stop.v2.27.Incl.ALL.DLC_2/Bus.Simulator.21.Next.Stop.v2.27.Incl.ALL.DLC/Bus.Simulator.21.Next.Stop.v2.27.Incl.ALL.DLC/BusSimulator21/Binaries/Win64/</BaseDir>
+		<RootDir>C:/Users/risa_/Desktop/DLL/Bus.Simulator.21.Next.Stop.v2.27.Incl.ALL.DLC_2/Bus.Simulator.21.Next.Stop.v2.27.Incl.ALL.DLC/Bus.Simulator.21.Next.Stop.v2.27.Incl.ALL.DLC/</RootDir>
+		<MachineId>05870772431F8FCB243685AB720A6348</MachineId>
+		<LoginId>05870772431f8fcb243685ab720a6348</LoginId>
+		<EpicAccountId />
+		<SourceContext />
+		<UserDescription />
+		<UserActivityHint />
+		<CrashDumpMode>0</CrashDumpMode>
+		<GameStateName>BS18GameState_BP_C</GameStateName>
+		<Misc.NumberOfCores>4</Misc.NumberOfCores>
+		<Misc.NumberOfCoresIncludingHyperthreads>8</Misc.NumberOfCoresIncludingHyperthreads>
+		<Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
+		<Misc.CPUVendor>GenuineIntel</Misc.CPUVendor>
+		<Misc.CPUBrand>Intel(R) Core(TM) i7-1065G7 CPU @ 1.30GHz</Misc.CPUBrand>
+		<Misc.PrimaryGPUBrand>Intel(R) Iris(R) Plus Graphics</Misc.PrimaryGPUBrand>
+		<Misc.OSVersionMajor>Windows 10 (Release 2009)</Misc.OSVersionMajor>
+		<Misc.OSVersionMinor />
+		<MemoryStats.TotalPhysical>16829435904</MemoryStats.TotalPhysical>
+		<MemoryStats.TotalVirtual>140737488224256</MemoryStats.TotalVirtual>
+		<MemoryStats.PageSize>4096</MemoryStats.PageSize>
+		<MemoryStats.TotalPhysicalGB>16</MemoryStats.TotalPhysicalGB>
+		<MemoryStats.AvailablePhysical>0</MemoryStats.AvailablePhysical>
+		<MemoryStats.AvailableVirtual>0</MemoryStats.AvailableVirtual>
+		<MemoryStats.UsedPhysical>0</MemoryStats.UsedPhysical>
+		<MemoryStats.PeakUsedPhysical>0</MemoryStats.PeakUsedPhysical>
+		<MemoryStats.UsedVirtual>0</MemoryStats.UsedVirtual>
+		<MemoryStats.PeakUsedVirtual>0</MemoryStats.PeakUsedVirtual>
+		<MemoryStats.bIsOOM>0</MemoryStats.bIsOOM>
+		<MemoryStats.OOMAllocationSize>0</MemoryStats.OOMAllocationSize>
+		<MemoryStats.OOMAllocationAlignment>0</MemoryStats.OOMAllocationAlignment>
+		<NumMinidumpFramesToIgnore>0</NumMinidumpFramesToIgnore>
+		<CallStack>vcruntime140
+BusSimulator21_Win64_Shipping
+BusSimulator21_Win64_Shipping
+BusSimulator21_Win64_Shipping
+BusSimulator21_Win64_Shipping
+BusSimulator21_Win64_Shipping
+BusSimulator21_Win64_Shipping
+BusSimulator21_Win64_Shipping
+BusSimulator21_Win64_Shipping
+BusSimulator21_Win64_Shipping
+BusSimulator21_Win64_Shipping
+BusSimulator21_Win64_Shipping
+BusSimulator21_Win64_Shipping
+BusSimulator21_Win64_Shipping
+BusSimulator21_Win64_Shipping
+BusSimulator21_Win64_Shipping
+BusSimulator21_Win64_Shipping
+BusSimulator21_Win64_Shipping
+kernel32
+ntdll</CallStack>
+		<PCallStack>VCRUNTIME140 0x00007ffcc62a0000 + 148c BusSimulator21-Win64-Shipping 0x00007ff6413c0000 + af8de7 X3DAudio1_7 0x0000000062230000 + 6c7e94ebf0 ntdll 0x00007ffcec5b0000 + c7d66b43d9d23e7a X3DAudio1_7 0x0000000062230000 + 256462719e0 BusSimulator21-Win64-Shipping 0x00007ff6413c0000 + 29a624f X3DAudio1_7 0x0000000062230000 + 2565072ae30 BusSimulator21-Win64-Shipping 0x00007ff6413c0000 + 112ae44 X3DAudio1_7 0x0000000062230000 + 2565072ae20 X3DAudio1_7 0x0000000062230000 + 2564e6e3ce8 X3DAudio1_7 0x0000000062230000 + 256410c5640 Unknown 0x0000000000000000 + 48 X3DAudio1_7 0x0000000062230000 + 2563a7e9a80 KERNELBASE 0x00007ffce9a50000 + 677fd X3DAudio1_7 0x0000000062230000 + 2564eee0040 X3DAudio1_7 0x0000000062230000 + 154f9ddd12d1</PCallStack>
+		<PCallStackHash>0B8AAFF65BF3723A42F049DC0FA35FA4F4BA070D</PCallStackHash>
+		<Threads>
+			<Thread>
+				<CallStack>ntdll 0x00007ffcec5b0000 + 9ecd4 KERNELBASE 0x00007ffce9a50000 + 3480e ntdll 0x00007ffcec5b0000 + 4433800358450000 X3DAudio1_7 0x0000000062230000 + 2563ad8e700 X3DAudio1_7 0x0000000062230000 + 2563ad8e700</CallStack>
+				<IsCrashed>true</IsCrashed>
+				<Registers />
+				<ThreadID>19184</ThreadID>
+				<ThreadName>GameThread</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>win32u 0x00007ffce99b0000 + 6154 D3D12Core 0x00007ffc9de10000 + 25bc0 X3DAudio1_7 0x0000000062230000 + 6c7db4f070 X3DAudio1_7 0x0000000062230000 + 25641dbf320</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>13604</ThreadID>
+				<ThreadName>TaskGraphThreadNP 0</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffcec5b0000 + 9ecd4 KERNELBASE 0x00007ffce9a50000 + 3480e X3DAudio1_7 0x0000000062230000 + 2564c3e41a0 BusSimulator21-Win64-Shipping 0x00007ff6413c0000 + 1d11baa X3DAudio1_7 0x0000000062230000 + 2563ad6f340 BusSimulator21-Win64-Shipping 0x00007ff6413c0000 + 1d1ae99 X3DAudio1_7 0x0000000062230000 + 2563d300000 X3DAudio1_7 0x0000000062230000 + 2565148ab28 Unknown 0x0000000000000000 + 48 Unknown 0x0000000000000000 + 1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>11692</ThreadID>
+				<ThreadName>TaskGraphThreadNP 1</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffcec5b0000 + 9ecd4 KERNELBASE 0x00007ffce9a50000 + 3480e</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>27064</ThreadID>
+				<ThreadName>TaskGraphThreadNP 2</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffcec5b0000 + 9ecd4 KERNELBASE 0x00007ffce9a50000 + 3480e X3DAudio1_7 0x0000000062230000 + 256d1fa3c50 X3DAudio1_7 0x0000000062230000 + 256d1fa3c48 X3DAudio1_7 0x0000000062230000 + 256d1fa3c4c X3DAudio1_7 0x0000000062230000 + 2569ddd0000 X3DAudio1_7 0x0000000062230000 + 2569ddd0000 BusSimulator21-Win64-Shipping 0x00007ff6413c0000 + 17690ad Unknown 0x0000000000000000 + 48 X3DAudio1_7 0x0000000062230000 + 7ff59ddd0001</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>17164</ThreadID>
+				<ThreadName>TaskGraphThreadNP 3</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffcec5b0000 + 9ecd4 KERNELBASE 0x00007ffce9a50000 + 3480e X3DAudio1_7 0x0000000062230000 + 2562c686030 BusSimulator21-Win64-Shipping 0x00007ff6413c0000 + 1d11baa X3DAudio1_7 0x0000000062230000 + 2563ad6f340 BusSimulator21-Win64-Shipping 0x00007ff6413c0000 + 1d1ae99 X3DAudio1_7 0x0000000062230000 + 2563d2f0000 X3DAudio1_7 0x0000000062230000 + 2565148d568 Unknown 0x0000000000000000 + 48 X3DAudio1_7 0x0000000062230000 + 7ff59ddd0001</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>26420</ThreadID>
+				<ThreadName>TaskGraphThreadNP 4</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffcec5b0000 + 9ecd4 KERNELBASE 0x00007ffce9a50000 + 3480e X3DAudio1_7 0x0000000062230000 + 25647834d40 BusSimulator21-Win64-Shipping 0x00007ff6413c0000 + 5224df0</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>16916</ThreadID>
+				<ThreadName>TaskGraphThreadNP 5</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>igc64 0x00007ffcd8800000 + 919992 ntdll 0x00007ffcec5b0000 + ffff800313a4fff8 igc64 0x00007ffcd8800000 + afc4f8 ntdll 0x00007ffcec5b0000 + ffff800313a4fff8 igc64 0x00007ffcd8800000 + 11a84e X3DAudio1_7 0x0000000062230000 + 25641e49360</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>26608</ThreadID>
+				<ThreadName>TaskGraphThreadHP 6</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffcec5b0000 + 9ecd4 KERNELBASE 0x00007ffce9a50000 + 3480e X3DAudio1_7 0x0000000062230000 + 1cce632a61f7 Unknown 0x0000000000000000 + 1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>13560</ThreadID>
+				<ThreadName>TaskGraphThreadHP 7</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffcec5b0000 + 9ecd4 KERNELBASE 0x00007ffce9a50000 + 3480e X3DAudio1_7 0x0000000062230000 + 1cce63146457 Unknown 0x0000000000000000 + 1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>22888</ThreadID>
+				<ThreadName>TaskGraphThreadHP 8</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffcec5b0000 + 9ecd4 KERNELBASE 0x00007ffce9a50000 + 3480e X3DAudio1_7 0x0000000062230000 + 1cce630e66e7 BusSimulator21-Win64-Shipping 0x00007ff6413c0000 + 5bec40001</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>17800</ThreadID>
+				<ThreadName>TaskGraphThreadHP 9</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>igc64 0x00007ffcd8800000 + 465fb0 igc64 0x00007ffcd8800000 + 460fa3 X3DAudio1_7 0x0000000062230000 + 256ecd06958 X3DAudio1_7 0x0000000062230000 + 6c81aa8c50 Unknown 0x0000000000000000 + ff X3DAudio1_7 0x0000000062230000 + 6c81aa8c50 X3DAudio1_7 0x0000000062230000 + 2559ddd00ff igc64 0x00007ffcd8800000 + 21aac3 Unknown 0x0000000000000000 + 2 Unknown 0x0000000000000000 + 24 X3DAudio1_7 0x0000000062230000 + 2569ddd0002</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>17792</ThreadID>
+				<ThreadName>TaskGraphThreadHP 10</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffcec5b0000 + 9ecd4 KERNELBASE 0x00007ffce9a50000 + 3480e X3DAudio1_7 0x0000000062230000 + 1cce63026557 X3DAudio1_7 0x0000000062230000 + 7ff59ddd0001</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>11960</ThreadID>
+				<ThreadName>TaskGraphThreadHP 11</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffcec5b0000 + 9ecd4 KERNELBASE 0x00007ffce9a50000 + 3480e X3DAudio1_7 0x0000000062230000 + 6b9ddd0052 X3DAudio1_7 0x0000000062230000 + 7ff59ddd0001 X3DAudio1_7 0x0000000062230000 + 25640d97ac0</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>21944</ThreadID>
+				<ThreadName>TaskGraphThreadBP 12</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffcec5b0000 + 9ecd4 KERNELBASE 0x00007ffce9a50000 + 3480e X3DAudio1_7 0x0000000062230000 + 6b9ddd0051 X3DAudio1_7 0x0000000062230000 + 7ff59ddd0001 X3DAudio1_7 0x0000000062230000 + 2564cf85f30</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>19752</ThreadID>
+				<ThreadName>TaskGraphThreadBP 13</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffcec5b0000 + 9ecd4 KERNELBASE 0x00007ffce9a50000 + 3480e X3DAudio1_7 0x0000000062230000 + 6b9ddd004d X3DAudio1_7 0x0000000062230000 + 7ff59ddd0001 X3DAudio1_7 0x0000000062230000 + 2564cf838a0</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>23092</ThreadID>
+				<ThreadName>TaskGraphThreadBP 14</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffcec5b0000 + 9ecd4 KERNELBASE 0x00007ffce9a50000 + 3480e X3DAudio1_7 0x0000000062230000 + 6b9ddd0055 X3DAudio1_7 0x0000000062230000 + 7ff59ddd0001 X3DAudio1_7 0x0000000062230000 + 256516129a0</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>9788</ThreadID>
+				<ThreadName>TaskGraphThreadBP 15</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffcec5b0000 + 9ecd4 KERNELBASE 0x00007ffce9a50000 + 3480e X3DAudio1_7 0x0000000062230000 + 6b9ddd0022 X3DAudio1_7 0x0000000062230000 + 7ff59ddd0001 X3DAudio1_7 0x0000000062230000 + 2564cf8ae50</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>5736</ThreadID>
+				<ThreadName>TaskGraphThreadBP 16</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffcec5b0000 + 9ecd4 KERNELBASE 0x00007ffce9a50000 + 3480e X3DAudio1_7 0x0000000062230000 + 6b9ddd0053 X3DAudio1_7 0x0000000062230000 + 7ff59ddd0001 X3DAudio1_7 0x0000000062230000 + 2564cf81c10 X3DAudio1_7 0x0000000062230000 + 2564cf81c03 X3DAudio1_7 0x0000000062230000 + 7ff59ddd0000</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>8144</ThreadID>
+				<ThreadName>TaskGraphThreadBP 17</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffcec5b0000 + 9ecd4 KERNELBASE 0x00007ffce9a50000 + 3480e</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>16392</ThreadID>
+				<ThreadName>PoolThread 0</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffcec5b0000 + 9ecd4 KERNELBASE 0x00007ffce9a50000 + 3480e</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>20160</ThreadID>
+				<ThreadName>PoolThread 1</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffcec5b0000 + 9ecd4 KERNELBASE 0x00007ffce9a50000 + 3480e</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>4964</ThreadID>
+				<ThreadName>PoolThread 2</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffcec5b0000 + 9ecd4 KERNELBASE 0x00007ffce9a50000 + 3480e ntdll 0x00007ffcec5b0000 + 43958009573b1e6c BusSimulator21-Win64-Shipping 0x00007ff6413c0000 + 29839bf</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>19936</ThreadID>
+				<ThreadName>PoolThread 3</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffcec5b0000 + 9ecd4 KERNELBASE 0x00007ffce9a50000 + 3480e X3DAudio1_7 0x0000000062230000 + 2562edfb950</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>3792</ThreadID>
+				<ThreadName>PoolThread 4</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffcec5b0000 + 9ecd4 KERNELBASE 0x00007ffce9a50000 + 3480e</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>1728</ThreadID>
+				<ThreadName>PoolThread 5</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffcec5b0000 + 9ecd4 KERNELBASE 0x00007ffce9a50000 + 3480e</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>12744</ThreadID>
+				<ThreadName>PoolThread 6</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffcec5b0000 + 9ecd4 KERNELBASE 0x00007ffce9a50000 + 3480e X3DAudio1_7 0x0000000062230000 + 2562edfc1d0 X3DAudio1_7 0x0000000062230000 + 2562edfc1c8</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>24960</ThreadID>
+				<ThreadName>PoolThread 7</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffcec5b0000 + 9f2d4 ntdll 0x00007ffcec5b0000 + 55193</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>6712</ThreadID>
+				<ThreadName>HttpManagerThread</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffcec5b0000 + 9ecd4 KERNELBASE 0x00007ffce9a50000 + 3480e</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>10872</ThreadID>
+				<ThreadName>OnlineAsyncTaskThreadSteam DefaultInstance</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffcec5b0000 + 9ecd4 KERNELBASE 0x00007ffce9a50000 + 3480e</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>24788</ThreadID>
+				<ThreadName>FMediaTicker</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffcec5b0000 + 9ecd4 KERNELBASE 0x00007ffce9a50000 + 3480e</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>18408</ThreadID>
+				<ThreadName>PoolThread 8</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffcec5b0000 + 9ecd4 KERNELBASE 0x00007ffce9a50000 + 3480e X3DAudio1_7 0x0000000062230000 + 25646ca1000 X3DAudio1_7 0x0000000062230000 + 6c86f6f8f8 X3DAudio1_7 0x0000000062230000 + 6c86f6f8b8 X3DAudio1_7 0x0000000062230000 + 256d8340000 X3DAudio1_7 0x0000000062230000 + 72458b124328 X3DAudio1_7 0x0000000062230000 + b1c00000 Unknown 0x0000000000000000 + 48 BusSimulator21-Win64-Shipping 0x00007ff6413c0000 + 5bec40001</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>1360</ThreadID>
+				<ThreadName>PoolThread 9</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffcec5b0000 + 9ecd4 KERNELBASE 0x00007ffce9a50000 + 3480e</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>11344</ThreadID>
+				<ThreadName>PoolThread 10</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffcec5b0000 + 9ecd4 KERNELBASE 0x00007ffce9a50000 + 3480e X3DAudio1_7 0x0000000062230000 + 25646ca1000 X3DAudio1_7 0x0000000062230000 + 6c86faf7e8 X3DAudio1_7 0x0000000062230000 + 6c86faf7a8 X3DAudio1_7 0x0000000062230000 + 256d8340000 X3DAudio1_7 0x0000000062230000 + 72458b0e4238 X3DAudio1_7 0x0000000062230000 + b1c40000 Unknown 0x0000000000000000 + 48 BusSimulator21-Win64-Shipping 0x00007ff6413c0000 + 5bec40001</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>26936</ThreadID>
+				<ThreadName>PoolThread 11</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>win32u 0x00007ffce99b0000 + 6154 D3D12Core 0x00007ffc9de10000 + 25bc0 X3DAudio1_7 0x0000000062230000 + 6c89e2c8b0 X3DAudio1_7 0x0000000062230000 + 25663426420</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>21460</ThreadID>
+				<ThreadName>RHIThread</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffcec5b0000 + 9ecd4 KERNELBASE 0x00007ffce9a50000 + 3480e X3DAudio1_7 0x0000000062230000 + 6c3144fb88 ntdll 0x00007ffcec5b0000 + ffff800313a4ffff BusSimulator21-Win64-Shipping 0x00007ff6413c0000 + 53d0b80 BusSimulator21-Win64-Shipping 0x00007ff6413c0000 + 277339e Unknown 0x0000000000000000 + 1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>4300</ThreadID>
+				<ThreadName>RenderThread 1</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffcec5b0000 + 9f2d4 ntdll 0x00007ffcec5b0000 + 55193 Unknown 0x0000000000000000 + 3 X3DAudio1_7 0x0000000062230000 + 2562c68f770 Unknown 0x0000000000000000 + ff BusSimulator21-Win64-Shipping 0x00007ff6413c0000 + 174d386 Unknown 0x0000000000000000 + 6 KERNELBASE 0x00007ffce9a50000 + 44cad</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>28144</ThreadID>
+				<ThreadName>RTHeartBeat 1</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>BusSimulator21-Win64-Shipping 0x00007ff6413c0000 + 18806a1 X3DAudio1_7 0x0000000062230000 + 25633e16968 BusSimulator21-Win64-Shipping 0x00007ff6413c0000 + 18c5760 BusSimulator21-Win64-Shipping 0x00007ff6413c0000 + 52d3b20 BusSimulator21-Win64-Shipping 0x00007ff6413c0000 + 19dd435 X3DAudio1_7 0x0000000062230000 + 256d8340560 Unknown 0x0000000000000000 + 1 Unknown 0x0000000000000000 + 51c2 X3DAudio1_7 0x0000000062230000 + 6c9113f810 X3DAudio1_7 0x0000000062230000 + 6c9113f6a0 BusSimulator21-Win64-Shipping 0x00007ff6413c0000 + 18ba90f X3DAudio1_7 0x0000000062230000 + 2567144b380 X3DAudio1_7 0x0000000062230000 + 6c9113f810 X3DAudio1_7 0x0000000062230000 + 2567144b380 X3DAudio1_7 0x0000000062230000 + 6c9113f6a0</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>15600</ThreadID>
+				<ThreadName>FAsyncLoadingThread</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffcec5b0000 + 9f2d4 ntdll 0x00007ffcec5b0000 + 55193</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>19824</ThreadID>
+				<ThreadName>ScreenSaverInhibitor</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffcec5b0000 + 9ecd4 KERNELBASE 0x00007ffce9a50000 + 3480e X3DAudio1_7 0x0000000062230000 + 2559ddd0011 X3DAudio1_7 0x0000000062230000 + 2564c4101d0 X3DAudio1_7 0x0000000062230000 + 2563a9d1938</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>2032</ThreadID>
+				<ThreadName>AudioMixerRenderThread(1)</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffcec5b0000 + 9ecd4 KERNELBASE 0x00007ffce9a50000 + 3480e ntdll 0x00007ffcec5b0000 + 3f7f800393a50000 X3DAudio1_7 0x0000000062230000 + 1ddd0000 ntdll 0x00007ffcec5b0000 + 7fff800353250000</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>27276</ThreadID>
+				<ThreadName>AudioThread</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffcec5b0000 + 9ecd4 KERNELBASE 0x00007ffce9a50000 + 3480e</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>3144</ThreadID>
+				<ThreadName>OnlineAsyncTaskThreadNull DefaultInstance(1)</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffcec5b0000 + 9ecd4 KERNELBASE 0x00007ffce9a50000 + 3480e X3DAudio1_7 0x0000000062230000 + 25647f9d800 X3DAudio1_7 0x0000000062230000 + 25647f9d800 X3DAudio1_7 0x0000000062230000 + 2562edfc1d8 ntdll 0x00007ffcec5b0000 + 216c2 Unknown 0x0000000000000000 + 102 ntdll 0x00007ffcec5b0000 + ffff800313a2b610 Unknown 0x0000000000000000 + 48 Unknown 0x0000000000000000 + 1</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>19388</ThreadID>
+				<ThreadName>FAsyncPurge</ThreadName>
+			</Thread>
+		</Threads>
+		<TimeOfCrash>638215239482170000</TimeOfCrash>
+		<bAllowToBeContacted>1</bAllowToBeContacted>
+		<PlatformFullName>Win64 [Windows 10 (Release 2009)  64b]</PlatformFullName>
+		<CrashReportClientVersion>1.0</CrashReportClientVersion>
+		<Modules>C:\Users\risa_\Desktop\DLL\Bus.Simulator.21.Next.Stop.v2.27.Incl.ALL.DLC_2\Bus.Simulator.21.Next.Stop.v2.27.Incl.ALL.DLC\Bus.Simulator.21.Next.Stop.v2.27.Incl.ALL.DLC\BusSimulator21\Binaries\Win64\BusSimulator21-Win64-Shipping.exe
+C:\Users\risa_\Desktop\DLL\Bus.Simulator.21.Next.Stop.v2.27.Incl.ALL.DLC_2\Bus.Simulator.21.Next.Stop.v2.27.Incl.ALL.DLC\Bus.Simulator.21.Next.Stop.v2.27.Incl.ALL.DLC\Engine\Binaries\ThirdParty\Vorbis\Win64\VS2015\libvorbis_64.dll
+\\?\C:\Users\risa_\Desktop\DLL\Bus.Simulator.21.Next.Stop.v2.27.Incl.ALL.DLC_2\Bus.Simulator.21.Next.Stop.v2.27.Incl.ALL.DLC\Bus.Simulator.21.Next.Stop.v2.27.Incl.ALL.DLC\BusSimulator21\Plugins\SAS_SDL_Packaged\Binaries\ThirdParty\SAS_SDL_PackagedLibrary\Win6
+C:\Users\risa_\Desktop\DLL\Bus.Simulator.21.Next.Stop.v2.27.Incl.ALL.DLC_2\Bus.Simulator.21.Next.Stop.v2.27.Incl.ALL.DLC\Bus.Simulator.21.Next.Stop.v2.27.Incl.ALL.DLC\Engine\Binaries\ThirdParty\PhysX3\Win64\VS2015\APEX_Destructible_x64.dll
+C:\Users\risa_\Desktop\DLL\Bus.Simulator.21.Next.Stop.v2.27.Incl.ALL.DLC_2\Bus.Simulator.21.Next.Stop.v2.27.Incl.ALL.DLC\Bus.Simulator.21.Next.Stop.v2.27.Incl.ALL.DLC\Engine\Binaries\ThirdParty\PhysX3\Win64\VS2015\APEX_Clothing_x64.dll
+C:\Users\risa_\Desktop\DLL\Bus.Simulator.21.Next.Stop.v2.27.Incl.ALL.DLC_2\Bus.Simulator.21.Next.Stop.v2.27.Incl.ALL.DLC\Bus.Simulator.21.Next.Stop.v2.27.Incl.ALL.DLC\Engine\Binaries\ThirdParty\PhysX3\Win64\VS2015\APEX_Legacy_x64.dll
+C:\Users\risa_\Desktop\DLL\Bus.Simulator.21.Next.Stop.v2.27.Incl.ALL.DLC_2\Bus.Simulator.21.Next.Stop.v2.27.Incl.ALL.DLC\Bus.Simulator.21.Next.Stop.v2.27.Incl.ALL.DLC\BusSimulator21\Binaries\Win64\EOSSDK-Win64-Shipping.dll
+C:\Users\risa_\Desktop\DLL\Bus.Simulator.21.Next.Stop.v2.27.Incl.ALL.DLC_2\Bus.Simulator.21.Next.Stop.v2.27.Incl.ALL.DLC\Bus.Simulator.21.Next.Stop.v2.27.Incl.ALL.DLC\Engine\Binaries\ThirdParty\PhysX3\Win64\VS2015\PhysX3_x64.dll
+C:\Users\risa_\Desktop\DLL\Bus.Simulator.21.Next.Stop.v2.27.Incl.ALL.DLC_2\Bus.Simulator.21.Next.Stop.v2.27.Incl.ALL.DLC\Bus.Simulator.21.Next.Stop.v2.27.Incl.ALL.DLC\Engine\Binaries\ThirdParty\DbgHelp\dbghelp.dll
+C:\Users\risa_\Desktop\DLL\Bus.Simulator.21.Next.Stop.v2.27.Incl.ALL.DLC_2\Bus.Simulator.21.Next.Stop.v2.27.Incl.ALL.DLC\Bus.Simulator.21.Next.Stop.v2.27.Incl.ALL.DLC\Engine\Binaries\ThirdParty\PhysX3\Win64\VS2015\PhysX3Common_x64.dll
+C:\Users\risa_\Desktop\DLL\Bus.Simulator.21.Next.Stop.v2.27.Incl.ALL.DLC_2\Bus.Simulator.21.Next.Stop.v2.27.Incl.ALL.DLC\Bus.Simulator.21.Next.Stop.v2.27.Incl.ALL.DLC\Engine\Binaries\ThirdParty\Steamworks\Steamv153\Win64\steam_api64.dll
+C:\Users\risa_\Desktop\DLL\Bus.Simulator.21.Next.Stop.v2.27.Incl.ALL.DLC_2\Bus.Simulator.21.Next.Stop.v2.27.Incl.ALL.DLC\Bus.Simulator.21.Next.Stop.v2.27.Incl.ALL.DLC\Engine\Binaries\ThirdParty\Windows\XAudio2_9\x64\xaudio2_9redist.dll
+C:\Users\risa_\Desktop\DLL\Bus.Simulator.21.Next.Stop.v2.27.Incl.ALL.DLC_2\Bus.Simulator.21.Next.Stop.v2.27.Incl.ALL.DLC\Bus.Simulator.21.Next.Stop.v2.27.Incl.ALL.DLC\Engine\Binaries\ThirdParty\PhysX3\Win64\VS2015\ApexFramework_x64.dll
+C:\Users\risa_\Desktop\DLL\Bus.Simulator.21.Next.Stop.v2.27.Incl.ALL.DLC_2\Bus.Simulator.21.Next.Stop.v2.27.Incl.ALL.DLC\Bus.Simulator.21.Next.Stop.v2.27.Incl.ALL.DLC\Engine\Binaries\ThirdParty\PhysX3\Win64\VS2015\NvCloth_x64.dll
+C:\Users\risa_\Desktop\DLL\Bus.Simulator.21.Next.Stop.v2.27.Incl.ALL.DLC_2\Bus.Simulator.21.Next.Stop.v2.27.Incl.ALL.DLC\Bus.Simulator.21.Next.Stop.v2.27.Incl.ALL.DLC\Engine\Binaries\ThirdParty\PhysX3\Win64\VS2015\PhysX3Cooking_x64.dll
+C:\Users\risa_\Desktop\DLL\Bus.Simulator.21.Next.Stop.v2.27.Incl.ALL.DLC_2\Bus.Simulator.21.Next.Stop.v2.27.Incl.ALL.DLC\Bus.Simulator.21.Next.Stop.v2.27.Incl.ALL.DLC\Engine\Binaries\ThirdParty\PhysX3\Win64\VS2015\PxPvdSDK_x64.dll
+C:\Users\risa_\Desktop\DLL\Bus.Simulator.21.Next.Stop.v2.27.Incl.ALL.DLC_2\Bus.Simulator.21.Next.Stop.v2.27.Incl.ALL.DLC\Bus.Simulator.21.Next.Stop.v2.27.Incl.ALL.DLC\Engine\Binaries\ThirdParty\NVIDIA\NVaftermath\Win64\GFSDK_Aftermath_Lib.x64.dll
+C:\Users\risa_\Desktop\DLL\Bus.Simulator.21.Next.Stop.v2.27.Incl.ALL.DLC_2\Bus.Simulator.21.Next.Stop.v2.27.Incl.ALL.DLC\Bus.Simulator.21.Next.Stop.v2.27.Incl.ALL.DLC\Engine\Binaries\ThirdParty\Ogg\Win64\VS2015\libogg_64.dll
+C:\Users\risa_\Desktop\DLL\Bus.Simulator.21.Next.Stop.v2.27.Incl.ALL.DLC_2\Bus.Simulator.21.Next.Stop.v2.27.Incl.ALL.DLC\Bus.Simulator.21.Next.Stop.v2.27.Incl.ALL.DLC\Engine\Binaries\ThirdParty\PhysX3\Win64\VS2015\PxFoundation_x64.dll
+C:\Users\risa_\Desktop\DLL\Bus.Simulator.21.Next.Stop.v2.27.Incl.ALL.DLC_2\Bus.Simulator.21.Next.Stop.v2.27.Incl.ALL.DLC\Bus.Simulator.21.Next.Stop.v2.27.Incl.ALL.DLC\Engine\Binaries\ThirdParty\Vorbis\Win64\VS2015\libvorbisfile_64.dll</Modules>
+	</RuntimeProperties>
+	<PlatformProperties>
+		<PlatformIsRunningWindows>1</PlatformIsRunningWindows>
+		<IsRunningOnBattery>true</IsRunningOnBattery>
+		<PlatformCallbackResult>0</PlatformCallbackResult>
+	</PlatformProperties>
+	<EngineData>
+		<RHI.RHIName>D3D12</RHI.RHIName>
+		<RHI.AdapterName>Intel(R) Iris(R) Plus Graphics</RHI.AdapterName>
+		<RHI.UserDriverVersion>30.0.101.3111</RHI.UserDriverVersion>
+		<RHI.InternalDriverVersion>30.0.101.3111</RHI.InternalDriverVersion>
+		<RHI.DriverDate>6-9-2022</RHI.DriverDate>
+		<RHI.FeatureLevel>SM5</RHI.FeatureLevel>
+		<Platform.AppHasFocus>false</Platform.AppHasFocus>
+	</EngineData>
+	<GameData />
+</FGenericCrashContext>
